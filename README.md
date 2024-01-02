@@ -22,7 +22,7 @@ Create the API Key on Alchemy Portal
 
 Run the Script using the command
 
-./starknetaml.sh  <HTTPS-Key>
+./starknetaml.sh  "Copy-paste-HTTPS-Key from Alchemy"
 
 Example
 ~~~
