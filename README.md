@@ -4,7 +4,7 @@
 Download the first script to the VPS server
 
 ~~~
-wget -O starknet-ml.sh https://raw.githubusercontent.com/ranjithrajaram/starknet/main/starknet-amllimited.sh && chmod +x starknetaml.sh
+wget -O starknetaml.sh https://raw.githubusercontent.com/ranjithrajaram/starknet/main/starknet-amllimited.sh && chmod +x starknetaml.sh
 ~~~
 
 ## Step2
