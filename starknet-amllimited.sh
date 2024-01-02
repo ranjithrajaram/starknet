@@ -15,7 +15,7 @@ echo "*********************************"
 echo "To run the script /bin/bash starknet.sh <httpskey> \n
 
       example
-      /bin/bash starknet.sh https://eth-mainnet.g.alchemy.com/v2/SbhPixV3FQJubLT2e59pZ6POaTMyHHsa"
+      /bin/bash starknet.sh https://eth-mainnet.g.alchemy.com/v2/SbhPixV3FQJubLT2e59XXXXXXXXXX"
 
 echo "******************************"
 echo
