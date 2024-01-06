@@ -26,5 +26,5 @@ Run the Script using the command
 
 Example
 ~~~
-./starknetaml.sh https://eth-mainnet.g.alchemy.com/v2/SbhPixV3FQJubLT2e59XXXXXXXXXX"
+./zoraamllimited.sh  https://eth-mainnet.g.alchemy.com/v2/SbhPixV3FQJubLT2e59XXXXXXXXXX"
 ~~~
