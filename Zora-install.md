@@ -11,10 +11,10 @@ wget -O zoraamllimited.sh https://raw.githubusercontent.com/ranjithrajaram/stark
 
 Create the API Key on Alchemy Portal
 
-1\. Create a new APP on Alchemy" 
-2\. Name: Startknet VPS number "
-3\.  Network: Ethereum Mainnet "
-4\.  After creating the app, click view key and copy the HTTPS key to connect to Alchemy "
+1. Create a new APP on Alchemy" 
+2. Name: Startknet VPS number "
+3.  Network: Ethereum Mainnet "
+4.  After creating the app, click view key and copy the HTTPS key to connect to Alchemy "
 
 "This key should be passed as an argument while running the script"
 
