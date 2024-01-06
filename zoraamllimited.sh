@@ -31,20 +31,20 @@ fi
 echo "Docker installation"
 echo "Setting up repos"
 # Setting up repos for docker installation 2 minutes
-apt-get update
-apt-get install ca-certificates curl gnupg
+apt-get update  1>/dev/null  2>&1
+apt-get install ca-certificates curl gnupg git  1>/dev/null  2>&1
 install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 chmod a+r /etc/apt/keyrings/docker.gpg
 # Add the repository to Apt sources:
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-apt-get update
+apt-get update 1>/dev/null  2>&1
 
 echo "Installing docker 5 minutes"
- apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+ apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y 1>/dev/null  2>&1
 
 echo " Pulling conduit 2 mins"
 git clone https://github.com/conduitxyz/node.git
